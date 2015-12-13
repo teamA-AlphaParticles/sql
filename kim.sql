@@ -20,12 +20,11 @@ CREATE TABLE Account (
 	);
 
 CREATE TABLE Stock (
+	id int,
 	ticker varchar(10) PRIMARY KEY, 
 	sector varchar(50) REFERENCES Account(userID),
 	buyPrice FLOAT,
-	currentPrice FLOAT,
 	targetPrice FLOAT,
-	weekPercentChange FLOAT,
 	sharesOwned int
 	);
 
@@ -41,8 +40,7 @@ INSERT INTO Account VALUES (3, 'Macro', 'thisIsMe', FALSE);
 INSERT INTO Account VALUES (4, 'Energy', 'boopower', FALSE);
 INSERT INTO Account VALUES (5, 'Healthcare', 'boopower', FALSE);
 
-INSERT INTO Stock VALUES ('THOR','Healthcare', 32, 50, 70, 0.01, 300);
-INSERT INTO Stock VALUES ('IOSP','Materials', 37, 48, 52, 0.04, 200);
-INSERT INTO Stock VALUES ('KWR','Materials', 27, 40, 47, 0.07, 500);
-INSERT INTO Stock VALUES ('CJES','Energy', 20, 18, 30, -0.05, 270);
-
+INSERT INTO Stock VALUES (1, 'THOR','Healthcare', 32, 70, 300);
+INSERT INTO Stock VALUES (2, 'IOSP','Materials', 37, 52, 200);
+INSERT INTO Stock VALUES (3, 'KWR','Materials', 27, 47, 500);
+INSERT INTO Stock VALUES (4, 'CJES','Energy', 20, 30, 270);
