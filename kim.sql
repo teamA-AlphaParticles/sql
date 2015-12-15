@@ -45,13 +45,17 @@ INSERT INTO Stock VALUES (2, 'BABA','Macro', 37, 52, 200);
 INSERT INTO Stock VALUES (3, 'CSCO','Materials', 27, 47, 500);
 INSERT INTO Stock VALUES (4, 'FB','Energy', 20, 30, 270);
 INSERT INTO Stock VALUES (5, 'GE','Macro', 20, 30, 270);
-INSERT INTO Stock VALUES (6, 'INTC','Energy', 20, 30, 270);
-INSERT INTO Stock VALUES (7, 'JPM','Energy', 20, 30, 270);
-INSERT INTO Stock VALUES (8, 'KORS','Healthcare', 20, 30, 270);
-INSERT INTO Stock VALUES (9, 'ORCL','Energy', 20, 30, 270);
-INSERT INTO Stock VALUES (10, 'QCOM','Materials', 20, 30, 270);
-INSERT INTO Stock VALUES (11, 'XRX','Materials', 20, 30, 270);
-INSERT INTO Stock VALUES (12, 'GS','Materials', 20, 30, 270);
-INSERT INTO Stock VALUES (13, 'MS','Materials', 20, 30, 270);
+INSERT INTO Stock VALUES (6, 'GS','Materials', 20, 30, 270);
+INSERT INTO Stock VALUES (7, 'INTC','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (8, 'JPM','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (9, 'KORS','Healthcare', 20, 30, 270);
+INSERT INTO Stock VALUES (10, 'MS','Materials', 20, 30, 270);
+INSERT INTO Stock VALUES (11, 'NKE','Materials', 20, 30, 270);
+INSERT INTO Stock VALUES (12, 'ORCL','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (13, 'QCOM','Materials', 20, 30, 270);
 INSERT INTO Stock VALUES (14, 'RST','Materials', 20, 30, 270);
-INSERT INTO Stock VALUES (15, 'NKE','Materials', 20, 30, 270);
+INSERT INTO Stock VALUES (15, 'XRX','Materials', 20, 30, 270);
+
+
+
+
