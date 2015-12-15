@@ -40,7 +40,14 @@ INSERT INTO Account VALUES (3, 'Macro', 'thisIsMe', FALSE);
 INSERT INTO Account VALUES (4, 'Energy', 'boopower', FALSE);
 INSERT INTO Account VALUES (5, 'Healthcare', 'boopower', FALSE);
 
-INSERT INTO Stock VALUES (1, 'THOR','Healthcare', 32, 70, 300);
-INSERT INTO Stock VALUES (2, 'IOSP','Materials', 37, 52, 200);
-INSERT INTO Stock VALUES (3, 'KWR','Materials', 27, 47, 500);
-INSERT INTO Stock VALUES (4, 'CJES','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (1, 'APPL','Macro', 32, 70, 300);
+INSERT INTO Stock VALUES (2, 'BABA','Macro', 37, 52, 200);
+INSERT INTO Stock VALUES (3, 'CSCO','Materials', 27, 47, 500);
+INSERT INTO Stock VALUES (4, 'FB','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (5, 'GE','Macro', 20, 30, 270);
+INSERT INTO Stock VALUES (6, 'INTC','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (7, 'JPM','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (8, 'KORS','Healthcare', 20, 30, 270);
+INSERT INTO Stock VALUES (9, 'ORCL','Energy', 20, 30, 270);
+INSERT INTO Stock VALUES (10, 'QCOM','Materials', 20, 30, 270);
+
