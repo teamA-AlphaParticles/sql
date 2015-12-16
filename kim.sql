@@ -1,5 +1,5 @@
 --
--- This SQL script builds a monopoly database, deleting any pre-existing version.
+-- This SQL script builds a database for the KIM App, deleting any pre-existing version.
 --
 -- @author Andrew Groenewold and Moses Mangunrahardja
 -- @version fall, 2015
@@ -22,7 +22,7 @@ CREATE TABLE Account (
 CREATE TABLE Stock (
 	id int,
 	ticker varchar(10) PRIMARY KEY, 
-	sector varchar(50) REFERENCES Account(userID),
+	sector varchar(50),
 	buyPrice FLOAT,
 	targetPrice FLOAT,
 	sharesOwned int
